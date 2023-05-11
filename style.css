@@ -49,7 +49,7 @@ body{
     width: 74px;
     height: 74px;
     border-radius: 100%;
-    box-shadow: inset 1px 1px 12px 0px hsla(256, 72%, 46%, 1);
+    box-shadow: inset 0px 0px 50px 05px hsla(256, 72%, 46%, 1);
 }
 .left-side-score .big-score{
     font-weight: bold;
@@ -58,14 +58,17 @@ body{
 .left-side-score .small-score{
     color: lightgray;
     font-weight: bold;
-}
+}   
 .content{
     margin-top: 20px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
 }
+.content .small-text{
+    color:lightgray
 
+}
 .right-score{
 }
 .score-container{
